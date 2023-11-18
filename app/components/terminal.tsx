@@ -367,7 +367,7 @@ const TerminalLayout = () => {
     <>
      {/* mamba.sh and say hi badge at the far right */}
      <div className='flex justify-between items-center mb-4'>
-      <p className='text-green-500 text-2xl font-mono'>mamba.sh</p>
+      <p className='text-green-500 text-2xl font-mono'>bnira.sh</p>
      </div>
 
      <hr className='border-gray-600 my-4' />
@@ -376,7 +376,7 @@ const TerminalLayout = () => {
      </p>
      <p className='text-white font-mono'>Hi!</p>
      <p className='text-white font-mono mb-4'>
-            I&apos;m Ntina, am currently a 4th year computing student at the Univerisity of Dundee
+            I&apos;m Boniface, I&apos;m currently a 4th year Computer Engineering - Space track student at the Embry Riddle Aeranautical University - Prescott
      </p>
 
      <p className='text-white font-mono'>
@@ -398,7 +398,7 @@ const TerminalLayout = () => {
        <p className='text-white font-mono'>
         <span className='text-red-500'>guest</span>
         <span className='text-yellow-500'>@</span>
-        <span className='text-blue-500'>mamba.sh</span>
+        <span className='text-blue-500'>bnira.sh</span>
         <span className='text-yellow-500'> ~ $</span>
        </p>
        <input

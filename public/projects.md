@@ -1,4 +1,4 @@
-### Projects
+<!-- ### Projects
 
 In addition to my academic pursuits in computer science, I actively engage in personal projects to continuously enhance my skills and stay abreast of the latest technologies in the market. Here are some of the exciting projects I have worked on:
 
@@ -53,4 +53,4 @@ In addition to my academic pursuits in computer science, I actively engage in pe
   - Redesigned user interface
   - Seamless user experience
 
-These projects reflect my passion for technology and my commitment to continuous learning and innovation.
+These projects reflect my passion for technology and my commitment to continuous learning and innovation. -->

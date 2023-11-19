@@ -1,9 +1,10 @@
 ### Skills
-- *Programming Languages*: Python, C/C++, Java.
-- *Web Development*: HTML, CSS, Talwind CSS, Daisy UI, JavaScript, TypeScript, React, Node.js, Next.js, Express.js, SQL, MongoDB, RESTful APIs, ESlint.
-- *Tools*: Git, VS Code, Vercel, MongoDB Compass, MySQL Workbench, Hashicorp Terraform, kubernetes, minikube, AWS, Jira , UML, Bitbucket
+- *Engineering Software*: C/C++,C#, embedded systems.
+- *Technical*: Data and signal analysis, Computer architecture, Real time systems (task scheduling)
+- *Web Development*: HTML, CSS, Talwind CSS, Daisy UI, JavaScript, TypeScript, React, Node.js, Next.js, Express.js, SQL, MongoDB, ESlint.
+- *Tools*: Git, VS Code, Vercel, MySQL Workbench, kubernetes, simulink, AWS, UML, 
 - *Operating Systems*: Windows, Linux, Mac OS
-- *Languages*: English, Swahili
+- *Languages*: English, Swahili, German
 
 ### Lets Connect
 

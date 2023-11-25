@@ -27,6 +27,7 @@ const TerminalLayout = () => {
        const [loading, setLoading] = useState(true);
        const [triggerApiCall, setTriggerApiCall] = useState(false);
        const mobile = isMobileDevice();
+       const uniqueKey = new Date().getTime().toString();
 
        // sanitize to remove trailing spaces and convert into small letters
        let sanitizedInput = inputValue.trim().toLowerCase();
@@ -110,7 +111,8 @@ const TerminalLayout = () => {
                      }
 
                      // Get the timestamp when the component first loads
-                     const loginTime = new Date().toUTCString();
+                     const loginDate = new Date();
+                     const loginTime = loginDate.toLocaleString();
                      setLastLoginTime(loginTime);
 
                      // Increment the user count and store it
@@ -144,7 +146,7 @@ const TerminalLayout = () => {
                      //    triggerApiCallToUpdateDataJson();
               }
               // Create a unique key for the new JSX element
-              const uniqueKey = new Date().getTime().toString();
+              //const uniqueKey = new Date().getTime().toString();
               let helpString: string | number | boolean | React.JSX.Element | Iterable<React.ReactNode> | React.PromiseLikeOfReactNode | null | undefined;
               let errorString: string | number | boolean | React.JSX.Element | Iterable<React.ReactNode> | React.PromiseLikeOfReactNode | null | undefined;
               let aboutmeString: string | number | boolean | React.JSX.Element | Iterable<React.ReactNode> | React.PromiseLikeOfReactNode | null | undefined;
@@ -357,10 +359,10 @@ const TerminalLayout = () => {
 
        const formatUserCount = () => {
               const paddedCount = String(userCount).padStart(3, '0');
-              return `imnss${paddedCount}`;
+              return `bthura${paddedCount}`;
        };
        return (
-              <div className='w-full md:w-1/2 bg-black text-green-500 p-6 rounded-lg shadow-lg mx-auto'>
+              <div className='w-full md:w-3/4 bg-black text-green-500 p-6 rounded-lg shadow-lg mx-auto'>
                      {booting ? (
                             <BootUpSequence />
                      ) : (
@@ -379,9 +381,18 @@ const TerminalLayout = () => {
                                           I&apos;m Boniface, I&apos;m currently a 4th year Computer Engineering - Space track student at the Embry Riddle Aeranautical University - Prescott
                                    </p>
 
-                                   <p className='text-white font-mono'>
-                                          Type <span className='text-yellow-500 px-1 rounded'>&lsquo;help&lsquo;</span> to see a list of commands.
-                                   </p>
+
+                                   <div className='text-white text-sm font-light' key={uniqueKey + '-output'}>
+                                          <p className='text-sm text-green-500 font-light mb-1'>use the commands below to get around:</p>
+                                          <ul className='list-disc list-inside'>
+                                                 {helpCommands.map((command, index) => (
+                                                        <li key={index}>
+                                                               <span className='text-yellow-500'>{command.name}</span>
+                                                               <span className='text-white'> - {command.description}</span>
+                                                        </li>
+                                                 ))}
+                                          </ul>
+                                   </div>
                                    <hr className='border-gray-600 my-4' />
 
                                    {/* Display terminal output */}

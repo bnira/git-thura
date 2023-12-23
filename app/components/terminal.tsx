@@ -122,7 +122,7 @@ const TerminalLayout = () => {
 
             const timer = setTimeout(() => {
                 setBooting(false);
-            }, 5000);
+            }, 2500);
 
             return () => clearTimeout(timer);
         }

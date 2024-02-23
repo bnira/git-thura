@@ -1,56 +1,21 @@
-<!-- ### Projects
+ ### Projects
 
-In addition to my academic pursuits in computer science, I actively engage in personal projects to continuously enhance my skills and stay abreast of the latest technologies in the market. Here are some of the exciting projects I have worked on:
+In addition to my academic pursuits in computer Engineering, I actively engage in trying to implement what I have learnt in a simple way, below are some of the projects I have and still working on:
 
-#### 1. Afro Beats Night Club
+#### 1. Control Systems
 
-- *Link:* [Afro Beats Night Club](https://afrobeatsdundee.vercel.app/)
-- *Description:* Finalizing the development of a vibrant online platform for Afro Beats Night Club, showcasing the club's music and culture.
-- *Tech Stack:* MongoDB, Next.js, React, Tailwind CSS, JavaScript
-- *Highlights:*
-  - Immersive visuals
-  - Seamless navigation
-  - Dynamic content
-  - Social media integration
-  - Full-Stack development
+- *Description:* Modeling, analysis, and design of analog and digital linear control systems using time and frequency domain techniques. Among skills learned include feedback control system characteristics performance analysis and stability, Z-transforms, and controller design.
+- Tools utilized include MATLAB, Simulink and Quanser Qube Library
 
-#### 2. HOWTO-TECH
+#### 2. MCU and IoT
+- *Description:* Microcontroller techniques for data acquistion, automated running and control implementation through Internet of Things. Tasks completed include a simple MCU bounce ball, interrupts generation and servicing, Motor control and analysis. 
+- Currently working on prototype to control water dispensing in farms based on the soil moisture content. 
 
-- *Link:* [HOWTO-TECH](https://www.howto-tech.info/)
-- *Description:* Collaborated on this platform with a classmate and it provides tech articles to support developers, with the focus being mostly newcomers to the tech industry.
-- *Tech Stack:* Node.js, CSS, Bootstrap, JavaScript
-- *Highlights:*
-  - Worked on the front-end
-  - Knowledge sharing
-  - Teamwork
+#### 3. Space Rated Hauling container (COSMOCRATE)
+- *Description:* I was a member of a 8 member team tasked with creating a payload hauling container to Deep Space and Mars to facilitate its colonization. My roles included identifying electronics and analysing the electrical needs of the project. Motor assembly and code development were among the tasks I got involved in. In the preliminary semester (Fall 2023, we were able to be ranked 3rd overall.)
+- The project is a senior year capstone for engineering students, currently under fabrication.
 
-#### 3. Job Listings
-
-- *Link:* [Job Listings](https://govtkejoblistings.onrender.com/)
-- *Description:* Job Listings as the name suggests utilizes web scraping techniques to gather job listings from government websites current Kenya and UK and presents the data in a user-friendly format.
-- *Tech Stack:* Python, Node.js, CSS, HTML, JavaScript
-- *Highlights:*
-  - Data Manipulation
-  - Child Processes
-  - Rest API Development
+#### 4. HVAC Systems
+- *Description* Heating Ventilation and Air Conditioning involves installing AC systems and ensuring the expected flow and control. I'm learning through apprenticing with skilled experts in the field, putting my theory skills to use.
 
 
-#### 4. The Little Green Larder
-
-- *Link:* [Little Green](https://the-little-green-larder.onrender.com)
-- *Description:* A class project focused on implementing agile methodologies.
-- *Tech Stack:* Node.js, Daisy UI, CSS, UIKIT, JavaScript
-- *Highlights:*
-  - Efficient functionality
-  - Agile development
-
-#### 5. Ask My Class
-
-- *Link to Current Site Design:* [Ask My Class](https://askmyclass.dundee.ac.uk/)
-- *Description:* Collaborating with my professor to enhance teacher-student interaction through a website.
-- *Tech Stack:* Django, CSS, HTML, JavaScript
-- *Highlights:*
-  - Redesigned user interface
-  - Seamless user experience
-
-These projects reflect my passion for technology and my commitment to continuous learning and innovation. -->
